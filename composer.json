@@ -1,0 +1,16 @@
+{
+    "name": "spr1t3-0/tripsafer",
+    "type": "project",
+    "require": {
+        "smarty/smarty": "^4.2",
+        "bramus/router": "^1.6",
+        "delight-im/file-upload": "^1.2"
+    },
+    "license": "wtfpl",
+    "authors": [
+        {
+            "name": "spr1t3-0",
+            "email": "ausfahrt@riseup.net"
+        }
+    ]
+}

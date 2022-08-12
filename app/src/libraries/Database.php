@@ -46,7 +46,7 @@ class Database
      * @param array $params
      * @return boolean
      */
-    public function fetchAllQuery(string $query, array $params): bool
+    public function fetchAllQuery(string $query): array|false
     {
         return $this->conn->query($query)->fetchAll(PDO::FETCH_ASSOC);
     }

@@ -9,22 +9,22 @@ const DB_Connections = [
         "PASSWORD" => "",
     ], 
     "DEVELOPMENT" => [
-        "HOST" => "localhost",
-        "NAME" => "tripsafer",
-        "USERNAME" => "tripsafer",
-        "PASSWORD" => "mikecheck"
+        "HOST" => "",
+        "NAME" => "",
+        "USERNAME" => "",
+        "PASSWORD" => ""
     ]
 ];
 
 # Current environment
-const ENVIRONMENT = "DEVELOPMENT";
+const ENVIRONMENT = "";
 
 const DEBUG = [
     "ADMIN" => true
 ];
 
 # App Name
-const APP_NAME = "TripSafer";
+const APP_NAME = "";
 
 # App Root Directory
 define('APP_ROOT', dirname(__FILE__, 2));
